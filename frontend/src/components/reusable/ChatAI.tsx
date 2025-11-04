@@ -4,8 +4,7 @@ import SplineScene from "./SplineScene";
 import { useChatAI } from "../../hooks/useChatAI";
 import { useSelectedUser } from "../../Context/SelectedUserContext";
 
-const apiKey =
-  "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";
+const apiKey = "";
 
 // 🎧 Funcție TTS (Text to Speech)
 async function tts(text: string, index: number, setPlayingIndex: Function) {
